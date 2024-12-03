@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Variable</title>
+</head>
+<body>
+    <h1>JavaScript Variable</h1>
+    <p>Sum, difference and multiplication of two Number</p>
+
+    <button id="result1"></button>
+    <br>
+    <button id="result2"></button>
+    <br>
+    <button id="result3"></button>
+    <br>
+    <button id="result4"></button>
+    <br>
+    <script>
+        var num1 = 400;
+        var num2 = 40;
+
+        var sum = num1 + num2;
+        var diff = num1-num2;
+        var multiply=num1*num2;
+        var divi =num1/num2
+
+        document.getElementById("result1").innerHTML = "The total sum is: " + sum ;
+
+        document.getElementById("result2").innerHTML = "The difference is: "+ diff ;
+
+         document.getElementById("result3").innerHTML = "The product is"+ multiply ;
+
+          document.getElementById("result4").innerHTML = "The quotient is"+ divi ;
+    </script>
+</body>
+</html>
